@@ -44,7 +44,7 @@ if __name__ == "__main__":
 fastapi==0.104.1
 uvicorn==0.24.0
 ```
-![fisrst](../docs/images/lab4/first.png)
+![fisrst](../images/lab4/first.png)
 
 Также будем работать в виртуальной среде, установим там необходимые нам модули
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 python app/main.py
 ```
 
-![check](../docs/images/lab4/check.png)
+![check](../images/lab4/check.png)
 
 Теперь создадим основсной systemd unit файл
 
@@ -137,9 +137,9 @@ systemctl is-active fastapi-service
 systemctl is-enabled fastapi-service
 ```
 
-![status](../docs/images/lab4/status.png)
+![status](../images/lab4/status.png)
 
-![run](../docs/images/lab4/running.png)
+![run](../images/lab4/running.png)
 
 
 ```bash

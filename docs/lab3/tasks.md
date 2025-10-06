@@ -125,7 +125,7 @@ docker images
 - -t lab3-fastapi - задает имя и тег образа
 - . - указывает на текущую директорию с Dockerfile
 
-![d1](../docs/images/lab3/d1.png)
+![d1](../images/lab3/d1.png)
 
 Видим в списке образов и наш созданный образ с названием lab3-fastapi.
 
@@ -146,11 +146,11 @@ docker logs fastapi-container
 
 Запускаем контейнер и смотрим как он работает.
 
-![d2](../docs/images/lab3/d2.png)
+![d2](../images/lab3/d2.png)
 
-![d3](../docs/images/lab3/d3.png)
+![d3](../images/lab3/d3.png)
 
-![d4](../docs/images/lab3/d4.png)
+![d4](../images/lab3/d4.png)
 
 ## 5. Настройка портов и переменных окружения
 
@@ -174,4 +174,4 @@ services:
 
 Проверим работу
 
-![d4](../docs/images/lab3/d5.png)
+![d4](../images/lab3/d5.png)
